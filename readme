@@ -1,0 +1,10 @@
+Instructions:
+In a clean Minix-3.1.0 installation:
+Create a directory under /root called work
+Copy this repository to /root/work
+Then, under /root/work/installation do:
+chmod +x install.sh
+./install.sh
+shutdown
+image=/boot/image/3.1.0r1
+boot
